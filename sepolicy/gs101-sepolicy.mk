@@ -4,6 +4,9 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/connectivity_thermal_power
 # ramdump
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/ramdump
 
+# turbo adapter
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
+
 # twoshay
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/input
 

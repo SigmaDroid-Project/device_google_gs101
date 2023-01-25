@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-evolution
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
@@ -22,9 +22,6 @@ PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 # EUICC
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
-
-# Lineage Health
-include hardware/google/pixel/lineage_health/device.mk
 
 # Parts
 PRODUCT_PACKAGES += \
