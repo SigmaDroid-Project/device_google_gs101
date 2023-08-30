@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-evolution
+DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-sigma
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
